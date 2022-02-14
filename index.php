@@ -2,10 +2,10 @@
 
 $paragraph = "Il mio primo paragrafo in php";
 $lengthParagraph = strlen($paragraph);
-$badWord = $_GET["primo"];
-$newParagraph = str_replace($badWord, "***", $paragraph);
+$badWord = $_GET["badword"];
+$newParagraph = str_replace($badWord, '***', $paragraph);
 $lengthNewParagraph = strlen($newParagraph);
-var_dump($badWord);
+
 ?>
 
 <!DOCTYPE html>
